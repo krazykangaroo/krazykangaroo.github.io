@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="style.css">
     <head>
-    <title>All About Me</title>
+      <title>All About Me</title>
     </head>
     <body>
     <script>
@@ -37,5 +38,31 @@
             <li><a href="https://www.youtube.com/watch?v=4ytQQ1WKJ-0&feature=youtu.be">Summer Montage 2018</a></li>
             <li><a href="https://www.youtube.com/watch?v=tPcpe6Kbx2I&feature=youtu.be">BPA Video Production Team 2019</a></li>
          </ol>
+         <h3>check out some places that I want to visit someday, type in any of the following to see the exact location!</h3>
+         <ol>
+           <ul>
+               <li>Cancun</li>
+               <li>Bahamas</li>
+               <li>Japan</li>
+               <li>California</li>
+               <li>Texas</li>
+               <li>Australia</li>
+           </ul>
+           <title>Weather Map</title>
+         </head>
+         <body>
+           <p> <!-- paragraph marker added here for spacing -->
+             <textarea id="country-name" rows="1" cols ="20">thailand</textarea>
+             <button onclick="makeCountryRequest()">Pan to Country</button>
+             <button onclick="panHome()">Pan back to Home</button>
+           </p>
+           <div id="map" class="map"></div>
+           <footer>
+             <p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+             <p>This map uses the <a href="http://openlayers.org/en/latest/apidoc/">Open Layers API</a></p>
+             <p>This map uses the <a href="https://restcountries.eu">REST Countries API</a></p>
+           </footer>
+         </body>
+          </ol>
     </body>
 </html>
